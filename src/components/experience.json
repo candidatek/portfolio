@@ -1,0 +1,32 @@
+{
+    "workExperience": [
+        {
+            "company": "GooseFx Labs",
+            "position": "Full Stack Developer",
+            "startDate": "March 2022",
+            "endDate": "July 2024",
+            "projects": [
+                "Developed and executing an automated token buy-back and burn system utilizing Jupiter CPI and Rust, thereby boosting token value through the reduction of its supply via secure market purchases and burns.",
+                "Implementing transparency measures by regularly updating the community via Twitter, fostering trust among stakeholders through transparent and automated tweets.",
+                "Engineering a cutting-edge revenue-sharing smart contract on the Solana blockchain using Rust, streamlining profit distribution among stakeholders with automation and transparency.",
+                "Developed the UI of a single sided liquidity automated market maker (SSL AMM), including seamless integration with Solana Web3 libraries to ensure real-time synchronisation with the Solana blockchain, overseeing a Total Value Locked (TVL) of $20 million & trading volume exceeding $700 million.",
+                "Enabling users to engage in yield farming with a single asset on GooseFX, allowing them to earn stake rewards, showcasing expertise in decentralised finance (DeFi).",
+                "Developed an end-to-end leaderboard system for perpetual contract users, including reading on-chain data, storing it in a database, and exposing the data through an API for ranking users based on trading volume on the platform."
+            ],
+            "description": "Description 1"
+        },
+        {
+            "company": "Citrix R&D",
+            "position": "Position 2",
+            "startDate": "July 2020",
+            "endDate": "March 2022",
+            "projects": [
+                "Enhanced user experience of Director Trends Pages by improving keyboard and audio  interactions, ensuring compliance with 508 standards.",
+                "Integrated CASP into Director, resulting in a 20% increase in active usage of the CASP product in the US region and a 33% increase in the EU region.",
+                "Took ownership of bug fix PI and personally reduced 18% of the bugs in Director UI, improving overall system stability and user satisfaction.",
+                "Applied knowledge of WAI-ARIA concepts to optimize accessibility features, improving usability for users with special abilities."
+            ],
+            "description": "Description 2"
+        }
+    ]
+}
