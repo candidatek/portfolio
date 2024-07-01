@@ -1,4 +1,66 @@
 {
+    "skills": [
+        {
+            "name": "Rust",
+            "level": "Intermediate",
+            "description": "I have been working with Rust for over 2 years now. I have developed multiple projects using Rust, including writing smart contracts on solana and building web server, which is mentioned in the work experience section."
+        },
+        {
+            "name": "Anchor",
+            "level": "Intermediate",
+            "description": "I have been working with Anchor for over 2 years now. I have developed multiple projects using Anchor framework, which is mentioned in the work experience section."
+        },
+        {
+            "name": "Solana Web3.js",
+            "level": "Advanced",
+            "description": "I have been working with Web3.js for over 2 years now. I have worked on multiple things using Web3.js for interacting with smart contracts."
+        },
+        {
+            "name": "JavaScript",
+            "level": "Advanced",
+            "description": "With over 3 years of Experience in JavaScript, I have developed a strong understanding of the language and its various frameworks. I have worked on multiple projects using JavaScript and have a good understanding of the language."
+        },
+        {
+            "name": "React",
+            "level": "Advanced",
+            "description": "I have been working with React for over 4 years now. I have developed multiple projects using React and have a good understanding of the framework. I have also worked with Solana web3js and Context API for state management."
+        },
+        {
+            "name": "Node.js",
+            "level": "Advanced",
+            "description": "I have been working with Node.js for over 3 years now. I have developed multiple projects using Node.js and have a good understanding of the framework. I have also worked with Express.js for building APIs."
+        },
+        {
+            "name": "Express.js",
+            "level": "Advanced",
+            "description": "I have been working with Express.js framework for over 3 years now. I have developed multiple projects using Express.js. worked with Node.js for building APIs."
+        },
+        {
+            "name": "MongoDB",
+            "level": "Advanced",
+            "description": "I have been working with MongoDB for over 3 years now. I have developed multiple projects using MongoDB database. I have also worked with Mongoose for building schemas."
+        },
+        {
+            "name": "PostgreSQL",
+            "level": "Intermediate",
+            "description": "I have been working with PostgreSQL for over 2 years now. I have developed multiple projects using PostgreSQL and have a good understanding of the database. I have also worked with Sequelize for building schemas."
+        },
+        {
+            "name": "TypeScript",
+            "level": "Advanced",
+            "description": "I have been working with TypeScript for over 2 years now. I have developed multiple projects using TypeScript and have a good understanding of the language."
+        },
+        {
+            "name": "CSS",
+            "level": "Advanced",
+            "description": "I have been working with CSS for over 4 years now. I have developed multiple projects using CSS and have a good understanding of the language."
+        },
+        {
+            "name": "Tailwind CSS",
+            "level": "Advanced",
+            "description": "I have been working with Tailwind CSS for over 2 years now. I have developed multiple projects using Tailwind CSS and have a good understanding of the framework."
+        }
+    ],
     "workExperience": [
         {
             "company": "GooseFx Labs",

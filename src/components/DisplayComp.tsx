@@ -1,6 +1,24 @@
 import React, { FC, ReactElement } from 'react'
 import data from './experience.json'
 
+const GradientText: FC<{ skill: { name: String, description: string }, fontSize: number }> = ({ skill, fontSize }) => {
+    const [expanded, setExpanded] = React.useState(false)
+
+    return (<div
+        onMouseLeave={() => setExpanded(false)}
+        onMouseEnter={() => setExpanded(true)}
+        className={`${expanded ? '!text-[46px]' : ''} mx-4 font-logo duration-500 h-18 mt-4 text-center bg-primary-gradient bg-clip-text text-transparent`} style={{ fontSize }}>
+        {skill.name}
+        {expanded && <div
+            onMouseEnter={() => setExpanded(false)}
+            className={`${expanded ? 'visibility-100 opacity-100 ' : 'visibility-hidden opacity-0'}
+                  w-auto p-2 max-w-[500px]  rounded-lg absolute text-[20px]  duration-1000 bg-primary-gradient text-white font-logo`}>
+            {skill.description}
+        </div>}
+    </div>
+    );
+};
+
 const DisplayComp = () => {
     return (
         <div className="mx-[12.5%] pt-[1%]  ">
@@ -8,7 +26,9 @@ const DisplayComp = () => {
             <ProfileImage />
             <SeeMyWork />
             <WorkExperience />
+            <Skills />
             <Academics />
+
 
 
 
@@ -18,9 +38,34 @@ const DisplayComp = () => {
     )
 }
 
-const Academics = () => {
+const Skills = () => {
+    const { skills } = data;
     return (
         <div className=' w-full flex flex-col pb-[10vh] '>
+            <div className='z-50 text-[50px] font-logo flex font-semibold   mb-4'>
+                Skills
+            </div>
+            <div className='grid grid-cols-4  cursor-pointer  justify-center max-h-[450px] items-center'>
+                {skills.map((skill, index) => (
+                    <GradientText key={index} skill={skill} fontSize={40} />
+                ))}
+                {/* <GradientText text= fontSize={50} />
+                <GradientText text="Rust" fontSize={50} />
+                <GradientText text="JavaScript" fontSize={50} />
+                <GradientText text="Node Js" fontSize={50} />
+                <GradientText text="MERN Stack" fontSize={50} /> */}
+            </div>
+
+
+        </div>
+    )
+
+
+}
+
+const Academics = () => {
+    return (
+        <div className=' w-full flex flex-col mt-[10vh] pb-[10vh] '>
             <div className='z-50 text-[50px] font-logo flex font-semibold  w-[20vw] h-[8vh] mb-10'>
                 Academics
             </div>
